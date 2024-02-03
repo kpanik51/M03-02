@@ -1,0 +1,13 @@
+----------------------      ----------------------      ----------------------
+|        Circle        |      |   GeometricObject  |      |      Comparable      |
+----------------------      ----------------------      ----------------------
+|                      |      |                      |      |                      |
+|                      |      |                      |      |                      |
+| + Circle()           |      | + GeometricObject()  |      |                      |
+| + Circle(radius:double)|      | + GeometricObject(color:String, filled:boolean)|      |                      |
+| + getRadius(): double |      | + getColor(): String |      |                      |
+| + setRadius(radius: double)|   | + setColor(color: String): void|      |                      |
+| + equals(Object): boolean |    | + isFilled(): boolean |      |                      |
+| + compareTo(Circle): int |    | + setFilled(filled: boolean): void|      |                      |
+|                      |      |                      |      |                      |
+----------------------      ----------------------      ----------------------
